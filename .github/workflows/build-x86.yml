@@ -24,10 +24,7 @@ jobs:
           pip install numpy pandas openpyxl --only-binary :all:
 
       - name: 打包 x86 exe
-        run: |
-          python -m PyInstaller --onefile --windowed --name InventoryPro_x86 ^
-            --hidden-import PIL --hidden-import PIL.Image --hidden-import PIL.ImageTk ^
-            --hidden-import sqlite3 inventory_pro.py
+        run: python -m PyInstaller --onefile --windowed --name InventoryPro_x86 --hidden-import PIL --hidden-import PIL.Image --hidden-import PIL.ImageTk --hidden-import sqlite3 inventory_pro.py
 
       - name: 上传产物
         uses: actions/upload-artifact@v4
