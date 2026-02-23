@@ -25,6 +25,7 @@ jobs:
         with:
           script-name: inventory_pro.py
           mode: standalone
+          output-dir: dist
           enable-plugins: tk-inter
           include-package: PIL
 
@@ -32,4 +33,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: InventoryPro_Nuitka
-          path: inventory_pro.dist
+          path: dist
