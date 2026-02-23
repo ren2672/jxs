@@ -26,9 +26,7 @@ jobs:
           script-name: inventory_pro.py
           mode: standalone
           enable-plugins: tk-inter
-          include-module: PIL
-          include-module: PIL.Image
-          include-module: PIL.ImageTk
+          include-package: PIL
 
       - name: 上传产物
         uses: actions/upload-artifact@v4
