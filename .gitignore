@@ -1,0 +1,48 @@
+# Python 缓存和编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 数据库和备份文件（隐私数据）
+data/
+*.db
+*.db-journal
+*.bak
+
+# 配置文件（可能包含敏感信息）
+login.json
+*.env
+.env.local
+config.json
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller
+*.spec.bak
+*.manifest
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+

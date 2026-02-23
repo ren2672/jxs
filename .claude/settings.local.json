@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(C:\\Users\\yuechaor\\AppData\\Roaming\\Python\\Python312-arm64\\Scripts\\pyinstaller.exe:*)"
+    ]
+  }
+}
